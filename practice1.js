@@ -5,8 +5,8 @@ const prompt = require("prompt-sync")({sigint: true});
 function convertInCm(number){
     /**
     * Convert inches into cm.
-    * @param  {int} a number in inches
-    * @return {float} number in cm.
+    * @param  number {int} a number in inches
+    * @return cm {float} number in cm.
     */
     let cm = number * 2.54;
     return cm;
@@ -16,7 +16,7 @@ console.log(convertInCm(3))
 function convertToURL(name){
     /**
     * Convert names into url.
-    * @param  {string} a name
+    * @param  name {string} a name
     * @return {string} a url
     */
     return (`https://www.${name}.com`);
@@ -26,7 +26,7 @@ console.log(convertToURL("lili"));
 function exclamation(name){
     /**
     * Convert a phrase into an exclamation
-    * @param  {string} a name
+    * @param  name {string} a name
     * @return {string} a url
     */
     return (name + "!");
@@ -36,8 +36,8 @@ console.log(exclamation("Women who Code"));
 function dogAge(years){
     /**
     * Convert human years into dog years
-    * @param  {int} regular dog age in human years
-    * @return {int} age of dog according to dog years
+    * @param  years {int} regular dog age in human years
+    * @return dogAge {int} age of dog according to dog years
     */
     let dogAge = years * 7;
     return (dogAge);
@@ -47,8 +47,8 @@ console.log(dogAge(4));
 function hourPayment(number){
     /**
     * Calculate hour payment taking into account you work 40 hours per month.
-    * @param  {int} salary provided by the user
-    * @return {int} hour payment
+    * @param  number {int} salary provided by the user
+    * @return hourPayment {int} hour payment
     */
     let payment = prompt("ingrese su salario: ")
     number = payment
@@ -60,9 +60,9 @@ console.log(hourPayment(1000000));
 function calculateImc(height, weight){
     /**
     * Calculate the IMC (Body Mass Index)
-    * @param  {float} height measured in meters
-    * @param  {float} weight measured in kg
-    * @return {float} IMC (Body Mass Index)
+    * @param  height {float} height measured in meters
+    * @param  weight {float} weight measured in kg
+    * @return imc {float} IMC (Body Mass Index)
     */
     let imc = weight/height;
     return (imc);
