@@ -2,6 +2,7 @@ const prompt = require("prompt-sync")({sigint: true});
 
 // FUNCTION DECLARATION
 
+// Ejercicio 1
 function convertInCm(number){
     /**
     * Convert inches into cm.
@@ -13,6 +14,7 @@ function convertInCm(number){
 }
 console.log(convertInCm(3))
 
+// Ejercicio 2
 function convertToURL(name){
     /**
     * Convert names into url.
@@ -23,6 +25,7 @@ function convertToURL(name){
 }
 console.log(convertToURL("lili"));
 
+// Ejercicio 3
 function exclamation(name){
     /**
     * Convert a phrase into an exclamation
@@ -33,6 +36,7 @@ function exclamation(name){
 }
 console.log(exclamation("Women who Code"));
 
+// Ejercicio 4
 function dogAge(years){
     /**
     * Convert human years into dog years
@@ -44,6 +48,7 @@ function dogAge(years){
 }
 console.log(dogAge(4));
 
+// Ejercicio 5
 function hourPayment(number){
     /**
     * Calculate hour payment taking into account you work 40 hours per month.
@@ -57,6 +62,7 @@ function hourPayment(number){
 }
 console.log(hourPayment(1000000));
 
+// Ejercicio 6
 function calculateImc(height, weight){
     /**
     * Calculate the IMC (Body Mass Index)
@@ -116,6 +122,7 @@ console.log(imc(1.55, 61));
 
 // OTHER EXAMPLES
 
+// Ejercicio 7
 function goUpperCase(phrase){
     /**
     * Convert lower case phras into upper case
@@ -129,6 +136,7 @@ console.log(goUpperCase("esto va en mayúsculas"));
 let goUpper = phrase => phrase.toUpperCase(); // array function
 console.log(goUpper("esto va en mayúsculas"));
 
+// Ejercicio 8
 function dataType(data){
     /**
     * Convert lower case phras into upper case
@@ -142,6 +150,7 @@ console.log(dataType("esto va en mayúsculas"));
 let typeOfData = parameter => typeof(parameter); // array function
 console.log(typeOfData("esto va en mayúsculas"));
 
+// Ejercicio 9
 function findCircumference(radio){
     /**
     * Finds the circuference of a circle
