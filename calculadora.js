@@ -113,7 +113,8 @@ console.log(average(3,7,8))
 function percentage(number1, number2){
     /**
     * Calculate the percentage of one number
-    * @param  number1 {int} a given number
+    * @param  number1 {int} el procentaje que queremos encontrar?
+    * @param  number2 {int} la cifra a la que le sacaremos el porcentaje?
     * @return result {float} the percentage number2 of a given number1.
     */
     let result = division(multiplication(number1,number2),100)
